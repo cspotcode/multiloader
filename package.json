@@ -1,0 +1,12 @@
+{
+    "name": "multiloader",
+    "version": "0.0.0",
+    "exports": {
+        "./compose?*": "./loader.mjs?*",
+        "./compose/*": "./loader.mjs?*",
+        "./*": "./loader.mjs?*"
+    },
+    "files": [
+        "loader.mjs"
+    ]
+}

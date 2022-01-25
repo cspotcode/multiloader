@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "multiloader": "file:../multiloader-0.0.0.tgz",
+        "ts-node": "^10.4.0",
+        "yaml": "^1.10.2",
+        "yaml-loader": "gist:c76948412b5c8575020b4b4f239cdd26"
+    }
+}
