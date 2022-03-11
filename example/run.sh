@@ -11,6 +11,7 @@ rm *.tgz || true
 npm pack
 popd
 npm install ../*.tgz
+npm install
 
 
 # Run the example:
