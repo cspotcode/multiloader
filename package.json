@@ -1,6 +1,18 @@
 {
-    "name": "multiloader",
-    "version": "0.0.1",
+    "name": "@cspotcode/multiloader",
+    "version": "0.0.0",
+    "author": {
+        "name": "Andrew Bradley",
+        "email": "cspotcode@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cspotcode/multiloader.git"
+    },
+    "homepage": "https://github.com/cspotcode/multiloader",
+    "bugs": {
+        "url": "https://github.com/cspotcode/multiloader/issues"
+    },
     "exports": {
         "./compose?*": "./loader.mjs?*",
         "./compose/*": "./loader.mjs?*",

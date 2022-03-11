@@ -15,6 +15,6 @@ npm install ../*.tgz
 
 # Run the example:
 
-node --loader multiloader/yaml-loader,ts-node/esm ./example.ts
-node --loader multiloader/compose?yaml-loader,ts-node/esm ./example.ts
+node --loader @cspotcode/multiloader/yaml-loader,ts-node/esm ./example.ts
+node --loader @cspotcode/multiloader/compose?yaml-loader,ts-node/esm ./example.ts
 # node --loader multiloader?yaml-loader,ts-node/esm ./example.ts
